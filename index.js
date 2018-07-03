@@ -3,7 +3,7 @@ function updateObjectWithKeyAndValue(object,key,value){
  var newobject = Object.assign({},object);
  newobject[key] = value;
  return newobject;
- //return Object.assign({},object,{key:value});
+ //return Object.assign({},object,{[key]:value});
 }
 
 function  destructivelyUpdateObjectWithKeyAndValue(object,key,value){
